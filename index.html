@@ -58,6 +58,7 @@
                     <button><img src="./Media/EntitysEnd/Menu.png"></button>
                     <p>Unreal Engine 5</p>
                     <p>Game Jam & College Project</p>
+                    <p>Role:</p>
                     <p>Gameplay Programmer, Level Designer, Project Manager</p>
                 </div>
                 <div class="gameSection" name="rememberSomething">
@@ -65,6 +66,7 @@
                     <button><img src="./Media/RememberSomething/RSMenu.png"></button>                    
                     <p>Unity</p>
                     <p>College Project</p>
+                    <p>Role:</p>
                     <p>Gameplay Programmer, Level Designer, Project Manager</p>
                 </div>
                 <div class="gameSection" name="ratAttack">
@@ -77,7 +79,7 @@
                 <div class="gameSection" name="pacman">
                     <h3>Pacman</h3>
                     <button><img src="./Media/Pacman/Pacman.png"></button>                    
-                    <p>Pure C# & Visual Studio</p>
+                    <p>Pure C# & Windows Forms</p>
                     <p>College Project</p>
                     <p>Created Entirely by Me</p>
                 </div>
@@ -173,15 +175,27 @@
                 <h2>Let's Get In Touch!</h2>
                 <hr>
                 <form action="">
-                    <label for="nameInput">NAME *</label>
-                    <input type="text" id="nameInput">
-                    <label for="emailInput">EMAIL *</label>
-                    <input type="email" id="emailInput">
-                    <label for="subjectInput">SUBJECT *</label>
-                    <input type="text" id="subjectInput">
-                    <label for="messageInput">MESSAGE *</label>
-                    <textarea id="messageInput"></textarea>
-                    <button type="submit">SEND MESSAGE</button>
+                    <div class="inputSection" id="fNameInput">
+                        <label for="firstNameInput">FIRST NAME* :</label>
+                        <input type="text" id="firstNameInput">
+                    </div>
+                    <div class="inputSection" id="lNameInput">
+                        <label for="lastNameInput">LAST NAME* :</label>
+                        <input type="text" id="lastNameInput">
+                    </div>
+                    <div class="inputSection" id="emailInput">
+                        <label for="emailInput">EMAIL* : </label>
+                        <input type="email" id="emailInput"> <br>
+                    </div>
+                    <div class="inputSection" id="subjectInput">
+                        <label for="subjectInput">SUBJECT* :</label>
+                        <input type="text" id="subjectInput">
+                    </div>
+                    <div class="inputSection" id="msgInput">
+                        <label for="messageInput">MESSAGE* :</label>
+                        <textarea id="messageInput" rows="10"></textarea>
+                    </div>
+                    <button type="submit"><b>SEND MESSAGE</b></button>
                 </form>
             </div>
         </div>
