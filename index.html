@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/Styles.css">
-        <script src="./JS/app.js"></script>
+        <script defer src="./JS/app.js"></script>
     </head>
 
     <body>
@@ -57,7 +57,7 @@
                 <p></p>
             </div>
             <div id="portfolioGames" class="flexContainer">
-                <div class="gameSection" name="entitysEnd">
+                <div class="gameSection hidden" name="entitysEnd">
                     <h3>Entity's End</h3>
                     <img src="./Media/EntitysEnd/Menu.png" class="staticImg">
                     <img src="./Media/EntitysEnd/entitysEnd.gif" class="gifImg">
@@ -66,7 +66,7 @@
                     <p><b>Role:</b> Gameplay Programmer, Level Designer, Project Manager</p>
                     <p class="extraInfo">Entity's End is my first 3D game with Unreal Engine 5. It's a SlenderMan-like game that was create me and three other students. Unlike prior projects, this game was created in only one month due to it being for the itch.io Game Jam. It was also our semester project. In this game, the goal is to dig up and collect all the artifacts before the Entity finds you. In this project, I also took the role of the project manager by organizing sprints and meetings. I also created the entire level and coded, with C++ and Blueprints, a lot of the gameplay mechanics. Play the game <a href="https://ironoli259.itch.io/entitys-end">HERE</a>. View the github repository <a href="https://github.com/Ironoli259/EntitysEnd">HERE</a>.</p>
                 </div>
-                <div class="gameSection" name="rememberSomething">
+                <div class="gameSection hidden" name="rememberSomething">
                     <h3>Remember Something?</h3>
                     <img src="./Media/RememberSomething/RSMenu.png" class="staticImg">
                     <img src="./Media/RememberSomething/RememberSomething.gif" class="gifImg">
@@ -75,7 +75,7 @@
                     <p><b>Role: </b>Gameplay Programmer, Level Designer, Project Manager</p>
                     <p class="extraInfo">Remember Something the first full game I created where I was part of a group (group of 3 people). This 3d Unity game was developed throughout the semester and is the game I'm most proud of. During this project, I took the lead as the Project Manager by creating/managing sprints and organizing a scrum meeting every 2 weeks. I also created every map except for one, which was obtained from the Unity asset store. I programmed quite a bit of the game. You can play the game <a href="https://ironoli259.itch.io/remembersomething">HERE</a>. The game was version controlled using PlasticSCM.</p>
                 </div>
-                <div class="gameSection" name="ratAttack">
+                <div class="gameSection hidden" name="ratAttack">
                     <h3>Rat Attack</h3>
                     <img src="./Media/RatAttack/Thumbnail.png" class="staticImg">
                     <img src="./Media/RatAttack/RatAttack.gif" class="gifImg">
@@ -84,7 +84,7 @@
                     <p>Created Entirely by Me</p>
                     <p class="extraInfo">This is the first game I made in Unity. My teacher tasked me to create a Vampire Survivor clone. This was my final project assignment that I worked on during the entire semester. You collect XP and gold from the enemies you slay. You can use the XP to unlock/upgrade powers. Use the gold to either unlock new playable character or upgrade your player's stats. It is actually finished though it is missing a bit of polishing. During the final stages of this project, I lost both my dad and my dog and lost all motivation to keep working on it. Click <a href="https://ironoli259.itch.io/ratattack">HERE</a> to download and play the game or click <a href="https://github.com/Ironoli259/RatAttack">HERE</a> to view the github repository.</p>
                 </div>
-                <div class="gameSection" name="pacman">
+                <div class="gameSection hidden" name="pacman">
                     <h3>Pacman</h3>
                     <img src="./Media/Pacman/Pacman.png" class="staticImg">
                     <img src="./Media/Pacman/Pacman.png" class="gifImg">
@@ -101,79 +101,78 @@
                 <h2>These are my Proficiencies!</h2>
                 <hr>
             </div>
-            <div id="toolsTitle">
+            <div id="toolsTitle" class="hidden">
                 <h3>Tools</h3>
                 <hr>
             </div>
-            <div id="ToolsSection" class="flexContainer">
-                
-                <div class="skillNode">
+            <div id="ToolsSection" class="flexContainer">                
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/unreal-engine.svg">
                     <h4>Unreal Engine 5 & 4</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/unity-3d.svg">
                     <h4>Unity</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/Git_icon.svg.png">
                     <h4>Git/Github</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/PlasticSCM.png">
                     <h4>Plastic SCM</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/godot.svg">
                     <h4>Godot</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/Construct3.png">
                     <h4>Construct 3</h4>
                 </div>                
             </div>
-            <div id="languagesTitle">
+            <div id="languagesTitle" class="hidden">
                 <h3>Languages</h3>
                 <hr>
             </div>
             <div id="LanguageSection" class="flexContainer">                
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/c-sharp.png">
                     <h4>C#</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/cpp_logo.png">
                     <h4>C++</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/BluePrint.avif">
                     <h4>UE Blueprints</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/WebLanguages.png">
                     <h4>Basic Web Languages</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/bootstrap-logo.png">
                     <h4>Bootstrap</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/jquery-4.svg">
                     <h4>JQuery</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/Nodejs.png">
                     <h4>Node.js</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media/Logos/sql-database-generic.svg">
                     <h4>SQL</h4>
                 </div>
-                <div class="skillNode" id="phpID">
+                <div class="skillNode hidden" id="phpID">
                     <img src="./Media/Logos/PHP-logo.svg.png">
                     <h4>PHP</h4>
                 </div>
-                <div class="skillNode">
+                <div class="skillNode hidden">
                     <img src="./Media//Logos/Java.png">
                     <h4>Java</h4>
                 </div>
@@ -181,7 +180,7 @@
         </div>
         
         <div id="contactSection" class="outerContainer">
-            <div id="contactMe" class="innerContainer">
+            <div id="contactMe" class="innerContainer hidden">
                 <h2>Let's Get In Touch!</h2>
                 <hr>
                 <form action="">
@@ -205,7 +204,7 @@
                         <label for="messageInput">MESSAGE* :</label>
                         <textarea id="messageInput" name="messageName" rows="10"></textarea>
                     </div>
-                    <button type="submit"><b>SEND MESSAGE</b></button>
+                    <input type="submit" value="Send Message">
                 </form>
             </div>
         </div>
@@ -213,5 +212,7 @@
         <footer>
             <p></p>
         </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     </body>
 </html>

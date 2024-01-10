@@ -2,6 +2,10 @@
     margin:0 auto;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Merriweather', serif;
     text-align: center;
@@ -56,6 +60,10 @@ header::after {
 a{
     text-decoration: none;
     color: #000;
+}
+
+h3{
+    color:#fff;
 }
 
 .outerContainer{
@@ -177,7 +185,8 @@ hr{
 
 #featuredGame img{
     float: left;
-    max-height: 300px;
+    max-width: 50%;
+    max-height: 400px;
     margin: 10px;
     padding:0;
 }
@@ -269,7 +278,7 @@ hr{
     padding-bottom:5px;
 }
 
-#toolsTitle{
+#toolsTitle #languagesTitle{
     font-weight:lighter;
     color:#fff;
     font-size: 18px;
@@ -349,13 +358,45 @@ hr{
     border: none;
 }
 
-#contactMe > form > button{
+#contactMe > form > input[type="submit"]{
     margin: 10px 20px;
     padding: 10px;
     border-radius: 10px;
+    font-size: 18px;
     border: none;
     background-color: #fff;
     grid-column: span 2;
     color:#030ba6af;
     font-family: 'Merriweather', serif;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-100px);
+    transition: all 1s;
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0)
+}
+
+.gameSection:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.gameSection:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.gameSection:nth-child(4){
+    transition-delay: 600ms;
 }
