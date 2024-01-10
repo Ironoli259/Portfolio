@@ -162,6 +162,45 @@ hr{
     margin-bottom: 15px;
 }
 
+#featuredGame{
+    background-color: #030ba6af;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    margin: 10px auto;
+    width: 80% ;
+    overflow: auto;
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82); 
+    box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82);
+}
+
+#featuredGame img{
+    float: left;
+    max-height: 300px;
+    margin: 10px;
+    padding:0;
+}
+
+#featuredGame > h3{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#featuredGame > p{
+    padding: 8px;
+    font-size: 16px;
+}
+
+#featuredGame > p > a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+#portfolioGames{
+    clear: both;
+}
+
 .gameSection{
     background-color: #030ba6af;
     padding: 10px;
@@ -190,10 +229,27 @@ hr{
     padding:0;
 }
 
+.gameSection img:hover{
+    cursor: pointer;
+}
+
 .gameSection > p{
     color: #fff;
     padding: 8px;
     font-size: 15px;
+}
+
+.gameSection > p > a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.gifImg{
+    display: none;
+}
+
+.extraInfo{
+    display: none;
 }
 
 #mySkillsSection{
@@ -282,11 +338,11 @@ hr{
     margin: 10px 0;
 }
 
-#msgInput{
+#msgDiv{
     grid-column: span 2;
 }
 
-#msgInput > textarea{
+#msgDiv > textarea{
     width: 100%;
     padding:10px;
     border-radius: 10px;

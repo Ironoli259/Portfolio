@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/Styles.css">
+        <script src="./JS/app.js"></script>
     </head>
 
     <body>
@@ -47,41 +48,50 @@
                 <hr>
                 <label>Click on the following games to view more details!</label>
             </div>
-            <div id="featuredGame" class="innerContainer" style="display: none;">
+            <div id="featuredGame" class="innerContainer" style="display:none">
                 <img src="./Media/EntitysEnd/entitysEnd.gif">
-                <h3>Entity's End</h3>
+                <h3></h3>
+                <p></p>
+                <p></p>
+                <p></p>
                 <p></p>
             </div>
             <div id="portfolioGames" class="flexContainer">
                 <div class="gameSection" name="entitysEnd">
-                    <h3>Entity's End</h3>
-                    <button><img src="./Media/EntitysEnd/Menu.png"></button>
+                    <h3><b>Engine: </b>Entity's End</h3>
+                    <img src="./Media/EntitysEnd/Menu.png" class="staticImg">
+                    <img src="./Media/EntitysEnd/entitysEnd.gif" class="gifImg">
                     <p>Unreal Engine 5</p>
                     <p>Game Jam & College Project</p>
-                    <p>Role:</p>
-                    <p>Gameplay Programmer, Level Designer, Project Manager</p>
+                    <p><b>Role:</b> Gameplay Programmer, Level Designer, Project Manager</p>
+                    <p class="extraInfo">Entity's End is my first 3D game with Unreal Engine 5. It's a SlenderMan-like game that was create me and three other students. Unlike prior projects, this game was created in only one month due to it being for the itch.io Game Jam. It was also our semester project. In this game, the goal is to dig up and collect all the artifacts before the Entity finds you. In this project, I also took the role of the project manager by organizing sprints and meetings. I also created the entire level and coded, with C++ and Blueprints, a lot of the gameplay mechanics. Play the game <a href="https://ironoli259.itch.io/entitys-end">HERE</a>. View the github repository <a href="https://github.com/Ironoli259/EntitysEnd">HERE</a>.</p>
                 </div>
                 <div class="gameSection" name="rememberSomething">
                     <h3>Remember Something?</h3>
-                    <button><img src="./Media/RememberSomething/RSMenu.png"></button>                    
-                    <p>Unity</p>
-                    <p>College Project</p>
-                    <p>Role:</p>
-                    <p>Gameplay Programmer, Level Designer, Project Manager</p>
+                    <img src="./Media/RememberSomething/RSMenu.png" class="staticImg">
+                    <img src="./Media/RememberSomething/RememberSomething.gif" class="gifImg">
+                    <p><b>Engine: </b>Unity</p>
+                    <p>College Project</p>                    
+                    <p><b>Role: </b>Gameplay Programmer, Level Designer, Project Manager</p>
+                    <p class="extraInfo">Remember Something the first full game I created where I was part of a group (group of 3 people). This 3d Unity game was developed throughout the semester and is the game I'm most proud of. During this project, I took the lead as the Project Manager by creating/managing sprints and organizing a scrum meeting every 2 weeks. I also created every map except for one, which was obtained from the Unity asset store. I programmed quite a bit of the game. You can play the game <a href="https://ironoli259.itch.io/remembersomething">HERE</a>. The game was version controlled using PlasticSCM.</p>
                 </div>
                 <div class="gameSection" name="ratAttack">
                     <h3>Rat Attack</h3>
-                    <button><img src="./Media/RatAttack/Thumbnail.png"></button>                    
+                    <img src="./Media/RatAttack/Thumbnail.png" class="staticImg">
+                    <img src="./Media/RatAttack/RatAttack.gif" class="gifImg">
                     <p>Unity</p>
                     <p>College Project</p>
                     <p>Created Entirely by Me</p>
+                    <p class="extraInfo">This is the first game I made in Unity. My teacher tasked me to create a Vampire Survivor clone. This was my final project assignment that I worked on during the entire semester. You collect XP and gold from the enemies you slay. You can use the XP to unlock/upgrade powers. Use the gold to either unlock new playable character or upgrade your player's stats. It is actually finished though it is missing a bit of polishing. During the final stages of this project, I lost both my dad and my dog and lost all motivation to keep working on it. Click <a href="https://ironoli259.itch.io/ratattack">HERE</a> to download and play the game or click <a href="https://github.com/Ironoli259/RatAttack">HERE</a> to view the github repository.</p>
                 </div>
                 <div class="gameSection" name="pacman">
                     <h3>Pacman</h3>
-                    <button><img src="./Media/Pacman/Pacman.png"></button>                    
+                    <img src="./Media/Pacman/Pacman.png" class="staticImg">
+                    <img src="./Media/Pacman/Pacman.png" class="gifImg">
                     <p>Pure C# & Windows Forms</p>
                     <p>College Project</p>
                     <p>Created Entirely by Me</p>
+                    <p class="extraInfo">This is the very first game that I made. Using Windows Forms and C#, I learned how to integrate the Dijkstra algorithm to program the ghosts' AI. </p>
                 </div>
             </div>
         </div>
@@ -175,25 +185,25 @@
                 <h2>Let's Get In Touch!</h2>
                 <hr>
                 <form action="">
-                    <div class="inputSection" id="fNameInput">
+                    <div class="inputSection" id="fNameDiv">
                         <label for="firstNameInput">FIRST NAME* :</label>
-                        <input type="text" id="firstNameInput">
+                        <input type="text" id="firstNameInput" name="firstName">
                     </div>
-                    <div class="inputSection" id="lNameInput">
+                    <div class="inputSection" id="lNameDiv">
                         <label for="lastNameInput">LAST NAME* :</label>
-                        <input type="text" id="lastNameInput">
+                        <input type="text" id="lastNameInput" name="lastName">
                     </div>
-                    <div class="inputSection" id="emailInput">
+                    <div class="inputSection" id="emailDiv">
                         <label for="emailInput">EMAIL* : </label>
-                        <input type="email" id="emailInput"> <br>
+                        <input type="email" id="emailInput" name="email"> <br>
                     </div>
-                    <div class="inputSection" id="subjectInput">
+                    <div class="inputSection" id="subjectDiv">
                         <label for="subjectInput">SUBJECT* :</label>
-                        <input type="text" id="subjectInput">
+                        <input type="text" id="subjectInput" name="subject">
                     </div>
-                    <div class="inputSection" id="msgInput">
+                    <div class="inputSection" id="msgDiv">
                         <label for="messageInput">MESSAGE* :</label>
-                        <textarea id="messageInput" rows="10"></textarea>
+                        <textarea id="messageInput" name="messageName" rows="10"></textarea>
                     </div>
                     <button type="submit"><b>SEND MESSAGE</b></button>
                 </form>
