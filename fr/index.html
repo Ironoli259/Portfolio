@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>OG</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/Styles.css">
+        <script defer src="../JS/app.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <img src="../Media/designs-02.jpg">
+            <h3><a href="#">Olivier Grenier</a></h3>
+            <nav>                
+                <ul>
+                    <li><a href="#">À Propos</a></li>
+                    <li><a href="#portfolioSection">Portfolio</a></li>   
+                    <li><a href="#mySkillsSection">Compétences</a></li>                    
+                    <li><a href="#contactSection">Contact</a></li>
+                    <li><a href="../index.html">EN</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="aboutSection" class="outerContainer">
+            <div id="innerAbout" class="innerContainer">
+                <img src="../Media/MarriageOli.jpg" alt="Photo of me">
+                <div>
+                    <h2>Bonjour, Je m'appel Olivier Grenier!</h2>
+                    <hr>
+                    <p>
+                        Je suis un future développeur de jeux vidéo. Même si je suis présentement en train de finir mes études pour obtenir mon diplôme en dévelopement de jeux vidéos, je sais que je vais continuer à apprendre et m'améliorer pour le restant de ma carrière. J'ai toujours été passionné par les jeux et je suis très excité de pouvoir enfin en créer. J'ai déjà créé quelques jeux et je suis présentement en train d'en créer d'autres.
+                    </p>
+                    <p>
+                        Pour mes futurs employeurs, j'offre fiabilité, fidélité et passion pour mon travail. J'apprends vite et je cherche toujours à améliorer mes compétences. J'ai également l'esprit d'équipe et je suis toujours prêt à aider mes collègues.
+                    </p>
+                </div>
+                <a href="" style="display:none">LEARN MORE ABOUT ME...</a>
+            </div>
+        </div>
+
+        <div id="portfolioSection" class="outerContainer">
+            <div id="portfolioTitle">
+                <h2>Voici mes jeux complets!</h2>
+                <hr>
+                <label>Cliquez sur les jeux suivants pour voir plus de détails!</label>
+            </div>
+            <div id="featuredGame" class="innerContainer" style="display:none">
+                <img src="../Media/EntitysEnd/entitysEnd.gif">
+                <h3></h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div id="portfolioGames" class="flexContainer">
+                <div class="gameSection hidden" name="entitysEnd">
+                    <h3>Entity's End</h3>
+                    <img src="../Media/EntitysEnd/Menu.png" class="staticImg">
+                    <img src="../Media/EntitysEnd/entitysEnd.gif" class="gifImg">
+                    <p><b>Moteur de Jeu: </b>Unreal Engine 5</p>
+                    <p>Game Jam d'un mois</p>
+                    <p>Programmeur, Level Designer, Gestionnaire de Projet <br>https://github.com/Ironoli259/EntitysEnd</p>
+                    <p class="extraInfo">Entity's End est mon premier jeu 3D avec Unreal Engine 5. C'est un jeu de type SlenderMan que j'ai créé avec trois autres étudiants. Contrairement aux projets précédents, ce jeu a été créé en seulement un mois car il était destiné au Game Jam itch.io. C'était aussi notre projet de semestre. Dans ce jeu, le but est de déterrer et de collecter tous les objets avant que l'Entité ne vous trouve. Dans ce projet, j'ai également assumé le rôle de chef de projet en organisant des sprints et des réunions. J'ai également créé le niveau entier et codé, avec C++ et Blueprints, une grande partie des mécanismes de gameplay. Jouez le jeu <a href="https://ironoli259.itch.io/entitys-end">ICI</a>. Accèder au répertoire Github <a href="https://github.com/Ironoli259/EntitysEnd">ICI</a>.</p>
+                </div>
+                <div class="gameSection hidden" name="rememberSomething">
+                    <h3>Remember Something?</h3>
+                    <img src="../Media/RememberSomething/RSMenu.png" class="staticImg">
+                    <img src="../Media/RememberSomething/RememberSomething.gif" class="gifImg">
+                    <p><b>Engine: </b>Unity</p>
+                    <p>Laps de temps: 3 mois</p>                    
+                    <p>Programmeur, Level Designer, Gestionnaire de Produit <br>https://github.com/Ironoli259/RememberSomethingFinal</p>
+                    <p class="extraInfo">Remember Something est le premier jeu complet que j'ai créé dans lequel je faisais partie d'un groupe (groupe de 3 personnes). Ce jeu 3D Unity a été développé tout au long du semestre et est le jeu dont je suis le plus fier. Au cours de ce projet, j'ai pris les devants en tant que Chef de Projet en créant/gérant des sprints et en organisant une réunion Scrum toutes les 2 semaines. J'ai également créé tout les niveaux sauf un, obtenue à partir du magasin d'actifs Unity. J'ai aussi programmé une bonne partie du jeu. Vous pouvez jouer au jeu <a href="https://ironoli259.itch.io/remembersomething">ICI</a>. J'ai appris beaucoup à propos de PlasticSCM. Accéder le répertoire <a href="https://github.com/Ironoli259/RememberSomethingFinal">ICI</a></p>
+                </div>
+                <div class="gameSection hidden" name="ratAttack">
+                    <h3>Rat Attack</h3>
+                    <img src="../Media/RatAttack/Thumbnail.png" class="staticImg">
+                    <img src="../Media/RatAttack/RatAttack.gif" class="gifImg">
+                    <p>Unity</p>
+                    <p>Laps de Temps: 1.5 Mois</p>
+                    <p>Créé entièrement par moi</p>
+                    <p class="extraInfo">Ceci est le premier jeu que j'ai créé dans Unity. Mon professeur m'a chargé de créer un clone de Vampire Survivor. Il s'agissait de mon dernier projet sur lequel j'ai travaillé pendant tout le semestre. Vous collectez de l'XP et de l'or auprès des ennemis que vous tuez. Vous pouvez utiliser l'XP pour débloquer/améliorer des pouvoirs. Utilisez l'or pour débloquer un nouveau personnage jouable ou améliorer les statistiques de votre joueur. Il est effectivement terminé même s'il manque un peu de polissage. Au cours des dernières étapes de ce projet, j'ai perdu mon père et mon chien et j'ai perdu toute motivation pour continuer à y travailler. Cliquez <a href="https://ironoli259.itch.io/ratattack">ICI</a> pour jouer le jeu ou cliquez <a href="https://github.com/Ironoli259/RatAttack">ICI</a> pour accéder le répertoire Github.</p>
+                </div>
+                <div class="gameSection hidden" name="pacman">
+                    <h3>Pacman</h3>
+                    <img src="../Media/Pacman/Pacman.png" class="staticImg">
+                    <img src="../Media/Pacman/Pacman.png" class="gifImg">
+                    <p>Pure C# & Windows Forms</p>
+                    <p>Algorithms A* and Dijkstra</p>
+                    <p>Créé entièrement par moi</p>
+                    <p class="extraInfo">This is the very first game that I made. Using Windows Forms and C#, I learned how to integrate the Dijkstra algorithm to program the ghosts' AI. </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="mySkillsSection" class="outerContainer">
+            <div id="skillsTitle">
+                <h2>Voici mes compétences!</h2>
+                <hr>
+            </div>
+            <div id="EnginesTitle" class="hidden">
+                <h3>Moteurs de Jeu</h3>
+                <hr>
+            </div>
+            <div id="ToolsSection" class="flexContainer">                
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/unreal-engine.svg">
+                    <h4>Unreal Engine 5 & 4</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/unity-3d.svg">
+                    <h4>Unity</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/Construct3.png">
+                    <h4>Construct 3</h4>
+                </div>
+             
+            </div>
+            <div id="VCTitle" class="hidden">
+                <h3>Contrôle de Version</h3>
+                <hr>
+            </div>
+            <div id="VCSection" class="flexContainer">
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/Git_icon.svg.png">
+                    <h4>Git/Github</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/PlasticSCM.png">
+                    <h4>Plastic SCM</h4>
+                </div>
+            </div>
+            <div id="languagesTitle" class="hidden">
+                <h3>Langues</h3>
+                <hr>
+            </div>
+            <div id="LanguageSection" class="flexContainer">                
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/c-sharp.png">
+                    <h4>C#</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/cpp_logo.png">
+                    <h4>C++</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/BluePrint.avif">
+                    <h4>UE Blueprints</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/WebLanguages.png">
+                    <h4>Basic Web Languages</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/bootstrap-logo.png">
+                    <h4>Bootstrap</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/jquery-4.svg">
+                    <h4>JQuery</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/Nodejs.png">
+                    <h4>Node.js</h4>
+                </div>
+                <div class="skillNode hidden">
+                    <img src="../Media/Logos/sql-database-generic.svg">
+                    <h4>SQL</h4>
+                </div>
+                <div class="skillNode hidden" id="javaSkill">
+                    <img src="../Media//Logos/Java.png">
+                    <h4>Java</h4>
+                </div>
+            </div>
+        </div>
+        
+        <div id="contactSection" class="outerContainer">
+            <div id="contactMe" class="innerContainer hidden">
+                <h2>Contactez Moi!</h2>
+                <hr>
+                <form action="">
+                    <div class="inputSection" id="fNameDiv">
+                        <label for="firstNameInput">Prénom* :</label>
+                        <input type="text" id="firstNameInput" name="firstName">
+                    </div>
+                    <div class="inputSection" id="lNameDiv">
+                        <label for="lastNameInput">Nom de Famille* :</label>
+                        <input type="text" id="lastNameInput" name="lastName">
+                    </div>
+                    <div class="inputSection" id="emailDiv">
+                        <label for="emailInput">Courriel* : </label>
+                        <input type="email" id="emailInput" name="email"> <br>
+                    </div>
+                    <div class="inputSection" id="subjectDiv">
+                        <label for="subjectInput">SUJET* :</label>
+                        <input type="text" id="subjectInput" name="subject">
+                    </div>
+                    <div class="inputSection" id="msgDiv">
+                        <label for="messageInput">MESSAGE* :</label>
+                        <textarea id="messageInput" name="messageName" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>Créé par Olivier Grenier</p>
+        </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
