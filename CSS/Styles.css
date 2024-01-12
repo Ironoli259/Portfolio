@@ -290,10 +290,6 @@ hr{
     margin-top: 40px;
 }
 
-#VCSection{
-    max-width: 1100px;
-}
-
 .skillNode{
     background-color: #b9f70e74;
     padding: 10px;
@@ -420,4 +416,8 @@ footer{
     color: #fff;
     padding: 20px;
     margin-top: 40px;
+}
+
+#VCSection #EnginesSection{
+    max-width: 1100px;
 }
