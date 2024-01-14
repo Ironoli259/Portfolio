@@ -17,6 +17,9 @@ function displayFeaturedGame(selectedGame){
     featuredGame.children[3].innerHTML = selectedGame.children[4].innerHTML;
     featuredGame.children[4].innerHTML = selectedGame.children[5].innerHTML;
     featuredGame.children[5].innerHTML = selectedGame.children[6].innerHTML;
+    document.getElementById('portfolioSection').scrollIntoView({
+        behavior: 'smooth'
+    });
 }
 
 

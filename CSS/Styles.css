@@ -83,6 +83,10 @@ h3{
     align-items: flex-start;
 }
 
+.toolsContainer{
+    max-width: 1100px;
+}
+
 #aboutSection{
     clear: both;
     background:url("../Media/RiverBackground.png") no-repeat center center;
@@ -396,15 +400,15 @@ hr{
 }
 
 .gameSection:nth-child(2){
-    transition-delay: 200ms;
+    transition-delay: 100ms;
 }
 
 .gameSection:nth-child(3){
-    transition-delay: 400ms;
+    transition-delay: 200ms;
 }
 
 .gameSection:nth-child(4){
-    transition-delay: 600ms;
+    transition-delay: 300ms;
 }
 
 #javaSkill > img{
@@ -416,8 +420,4 @@ footer{
     color: #fff;
     padding: 20px;
     margin-top: 40px;
-}
-
-#VCSection #EnginesSection{
-    max-width: 1100px;
 }
