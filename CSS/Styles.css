@@ -144,19 +144,19 @@ h3{
     border-radius: 20px;
 }
 
-#portfolioTitle{
+#portfolioTitle , #modelTitle{
     background-color: #030ba6af;
     padding:50px 0;
     color: #fff;
     font-weight: normal;
 }
 
-#portfolioTitle h2{
+#portfolioTitle h2, #modelTitle h2{
     font-weight:lighter;
     padding-bottom:5px;
 }
 
-#portfolioTitle label{
+#portfolioTitle label , #modelTitle label{
     font-size: 0.9em;
 }
 
@@ -215,7 +215,7 @@ hr{
     clear: both;
 }
 
-.gameSection{
+.gameSection, .modelSection{
     background-color: #030ba6af;
     padding: 10px;
     gap:10px;
@@ -226,7 +226,7 @@ hr{
     box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82);
 }
 
-.gameSection h3{
+.gameSection h3, .modelSection h3{
     color: #fff;
     padding: 10px;
 }
@@ -237,7 +237,7 @@ hr{
     border: none;
 }
 
-.gameSection img{
+.gameSection img , .modelSection img{
     max-width: 400px;
     max-height: 300px;
     padding:0;
@@ -257,6 +257,8 @@ hr{
     text-decoration: underline;
     color: #fff;
 }
+
+
 
 .gifImg{
     display: none;
