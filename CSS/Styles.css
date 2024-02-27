@@ -221,6 +221,7 @@ hr{
     gap:10px;
     margin: 10px;
     width: 450px;
+    min-height: 300px;
     border-radius: 15px;
     -webkit-box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82); 
     box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82);
@@ -241,6 +242,11 @@ hr{
     max-width: 400px;
     max-height: 300px;
     padding:0;
+}
+
+.modelSection img
+{
+    vertical-align:auto;
 }
 
 .gameSection img:hover{
