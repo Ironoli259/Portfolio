@@ -307,15 +307,20 @@ hr{
     padding: 10px;
     margin: 10px auto;
     width: 300px;
+    min-height: 225px;
     border-radius: 15px;
     -webkit-box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82); 
     box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.82);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillNode > img{
     width: 200px;
     max-height: 200px;
-    padding:0;
+    margin: auto;
+    padding: inherit;
 }
 
 .skillNode > h4{
